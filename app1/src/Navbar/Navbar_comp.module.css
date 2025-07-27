@@ -3,14 +3,7 @@
 
 }
 
-.navBrand{
-    font-size: calc(1.325rem + .9vw) !important;
-    text-transform: uppercase !important;
-    font-weight: bolder !important;
-}
-
 .Nlinks a{
-    opacity: 1;
     color: rgba(255, 255, 255, 1) !important;
     font-weight: 700 !important;
 }
