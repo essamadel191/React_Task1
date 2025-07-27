@@ -16,7 +16,7 @@ const Main = () => {
                     </div>
                     <div className='d-flex justify-content-center align-items-center mb-3'>
                         <div className={`line me-3 bg-white ${mainStyle.line}`}></div>
-                        <i class="fa-solid fa-star me-3"></i>
+                        <i className="fa-solid fa-star me-3"></i>
                         <div className={`line bg-white ${mainStyle.line}`}></div>
                     </div>
                     <div className='text-center'>

@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Navbar_comp = () => {
   return (
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark" className={`bg-body-tertiary p-4 ${navstyle.navbar_main}`}>
+    <Navbar sticky="top" expand="lg" bg="dark" data-bs-theme="dark" className={`bg-body-tertiary p-4 ${navstyle.navbar_main}`}>
       <Container>
         <Navbar.Brand href="#home" className='fs-2 text-uppercase fw-bolder'>Start Framework</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
