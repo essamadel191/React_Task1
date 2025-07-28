@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar_comp from '../Navbar/Navbar_comp';
+import Footer from '../Footer/Footer';
+
 import mainStyle from './Main.module.css'
 import mainImgSrc from '../assets/avatar1.svg'
+
 
 const Main = () => {
   return (
     <>
+    <Navbar_comp/>
+
         <div>
             <div className={`d-flex justify-content-center align-items-center ${mainStyle.avatarDiv}`}>
                 <div className='justify-content-center align-items-center text-white'>
@@ -25,6 +31,8 @@ const Main = () => {
                 </div>
             </div>
         </div>
+
+    <Footer/>
     </>
   )
 }
