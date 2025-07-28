@@ -59,8 +59,4 @@ src/
 └── ...
 ```
 
----
 
-## 📝 License
-
-This project is licensed for learning and personal use. You can modify and extend it freely.
